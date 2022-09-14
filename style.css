@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Image/image1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: green;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: green;
+}
+.btn{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    color: white;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px 0px;
+    font-size: 70px;
+}
+h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+h4{
+    color: green;
+    font-size: 15px;
+}
+.newsletter form{
+    width: 380px;
+    position: relative;
+    max-width: 100%;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0px 14px 15px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    background-color: green;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    top: 6px;
+    right: -12px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+.about.main img{
+    height: auto;
+    width: 430px;
+}
+.about_text{
+    width: 550px;
+    text-align: justify;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about_text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 21px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about_text p{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.service{
+    background-color: green;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: green;
+}
+h5{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.desc p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.card .button{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    /* transition: .4s; */
+}
+.contact_me{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact_me p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 50px 0px;
+}
+.contact_me .button_two{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    padding: 80px;
+}
+footer p:first-child{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(118, 196, 118);
+}
+
+ 
+@media screen and (max-width: 600px) {
+    .hero{
+        height: 90vh;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    nav{
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .btn{
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .logo{
+        font-size: 1.5em;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .content{
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    h4{
+        font-size: 1.5em;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    h3{
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .newsletter form {
+        width: 100%;
+    }
+
+    .newsletter form input:first-child{
+        width: 50%;
+    }
+
+    .newsletter form input:last-child{
+        font-size: .8em;
+        padding: 15px 25px;
+        left: 60%;
+        top: 10%;
+    }
+
+    .main {
+        display: block;
+        text-align: center;
+        width: 95%;
+        margin-top: 50px;
+    }
+    .main img {
+        width: 90%;        
+    }
+
+    .about-text{
+        width: 90%;
+        text-align: center;
+        margin: 30px auto;
+    }
+    .about-text h2 {
+        font-size: 2.5em;
+    }
+
+    .about-text h5 {
+        font-size: 1.2em;
+    }
+
+    .about-text p {
+        text-align: center;
+        font-size: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title{
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+
+    .title h2{
+        font-size: 2em;
+        width: 90%;
+    }
+
+    .box{
+        display: block;
+    }
+
+    .card{
+        width: 80%;
+        margin: 50px auto;
+        padding: 5px;
+    }
+
+    .card h5{
+        font-size: 1.5em;
+    }
+
+    .card p {
+        font-size: 15px;
+        margin: 30px 0;
+    }
+
+    #desc {
+        font-size: 1.5em;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .contact-me {
+        /* border: 2px solid; */
+        padding-top: 20px;
+    }
+
+    .contact-me a{
+        cursor: pointer;
+    }
+}
+    
