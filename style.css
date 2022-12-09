@@ -282,7 +282,7 @@ footer p:nth-child(2){
 
     .btn{
         font-size: 1em;
-        padding: 10px 20px;
+        padding: 7px 15px;
     }
 
     .logo{
@@ -310,20 +310,25 @@ footer p:nth-child(2){
         font-size: 1.2em;
         margin-bottom: 20px;
     }
+    
+    .btn{
+        font-size: 14px;
+    }
 
     .newsletter form {
         width: 100%;
     }
 
     .newsletter form input:first-child{
-        width: 50%;
+        width: 85%;
+        padding: 12px;
     }
 
     .newsletter form input:last-child{
         font-size: .8em;
-        padding: 15px 25px;
-        left: 60%;
-        top: 10%;
+        padding: 10px 20px;
+        left: 62%;
+        top: 8%;
     }
 
     .main {
@@ -356,6 +361,10 @@ footer p:nth-child(2){
         margin: 0 auto;
     }
 
+    button{
+        padding: 10px 25px;
+    }
+
     .title{
         text-align: center;
         /* margin-bottom: 20px; */
@@ -368,6 +377,7 @@ footer p:nth-child(2){
 
     .box{
         display: block;
+        width: 100%;
     }
 
     .card{
@@ -378,18 +388,13 @@ footer p:nth-child(2){
 
     .card h5{
         font-size: 1.5em;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .card p {
         font-size: 15px;
-        margin: 30px 0;
-    }
-
-    #desc {
-        font-size: 1.5em;
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 20px;
+        margin: 30px auto;    
     }
 
     .contact-me {
@@ -400,5 +405,30 @@ footer p:nth-child(2){
     .contact-me a{
         cursor: pointer;
     }
+
+    #para {
+        font-size: 1.5em;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .btn2 {
+        padding: 10px 25px;
+    }
+
+    footer p:first-child{
+        font-size: 1.5em;
+    }
+
+    .social a {
+        width:20px;
+        height:20px;
+        padding: 7px;
+    }
+
+    footer p:last-child {
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
 }
-    
